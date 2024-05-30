@@ -1,0 +1,1777 @@
+fileFormatVersion: 2
+guid: 64e5ebda9466db24ba09a721e577b0cc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 365
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afef8cfc5c0802f41b2b18c8ffa79fe8
+      internalID: -529402355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 365
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe785b9684505a64cb5f3a4205dc603d
+      internalID: -480020121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 366
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa019697e8789da45b8032f8a0bc3df6
+      internalID: 1387121414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 366
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccd9a6ffc87a7744a5d4ae8d733fe59
+      internalID: -225653522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 366
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0c6e6ae15f38241b6fddff44277117
+      internalID: -1417887750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_5
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 365
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a9180410befe8488565ac9a63b60ba
+      internalID: -335544671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 365
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0269350085fb4db4d9fec6beb10879a8
+      internalID: -1772856614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_7
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 365
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a54aed87af77fb42b255e9218209bf3
+      internalID: -1250131495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 325
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3dff5d615e05d4abf4cdb0c34598ce
+      internalID: 2082493115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_9
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 326
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5b1a4d3270d9042abe569bf5825968
+      internalID: 98207842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_10
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 325
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be500f5bde3a1af48b0b2ff4b17cf48b
+      internalID: -1813548895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_11
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 325
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4684cf65c2ec2c47bf394350e0ff274
+      internalID: -1702740655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_12
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 326
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca61eb8aa2b2e74d802964b90993fe6
+      internalID: 1354266421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_13
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 328
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a6031b74269d24b9695f574d8be691
+      internalID: 1778689535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_14
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 326
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf32f0f37ea7b748bb39e06319f9b0b
+      internalID: 454670715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_15
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 326
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b59bce9e19d244cad44b83ea06c8f9
+      internalID: 319416071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_16
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 285
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c0db7cb2e89184fae9ef97951249d1
+      internalID: -325308437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_17
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 286
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebd730f32e8c9a449694c7917736ed2
+      internalID: 1477205030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_18
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 286
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b234a87bb17ceb4695b566e007570e6
+      internalID: 1742452843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_19
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 286
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fdacf97122c86c41832a056a13892a5
+      internalID: 1473849398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_20
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 286
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef985c4edb5d16649994568836308402
+      internalID: -2039659603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_21
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 286
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc607ce66fa353f4cbcb26898e089104
+      internalID: -1346496915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_22
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 287
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f239083ed4bb1694ebc7f17687fbfaf1
+      internalID: 162334000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_23
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 287
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de0d7dbb87387c4db2667f7a6bf4b3f
+      internalID: -615770858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 246
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f484b0c20a3a9c9478aeb7251f492e07
+      internalID: -889017807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_25
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 246
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd57c20a4278c604a84507b22ca0bbb6
+      internalID: -929755720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_26
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 246
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed45bf54176ac743935a49bef32789a
+      internalID: 869177975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_27
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 247
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b683850f8a7ba1549a67dce76514af48
+      internalID: 95773532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_28
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 246
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f2c46e822d27646a0227b33e940e42
+      internalID: 249987397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_29
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 246
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491d1df6e1a85134398f5d4cb08a987b
+      internalID: 610210502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_30
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 246
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f25829e79e8d6049bc9c6eb536a2f54
+      internalID: 1803590050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_31
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 246
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235d9e49d03dc1f44bd023c6d80654ce
+      internalID: -52765394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_32
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 206
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1940e40362422b8429cbac4358da3f70
+      internalID: -615125812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_33
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 206
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128dc94414bda4d43b4645e13d707fe5
+      internalID: -1631526960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_34
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 206
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995059d78b557754db743e1fc0410b8d
+      internalID: 545977752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_35
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 206
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eae47b125264ef4dae56c1138404176
+      internalID: -1832374416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_36
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 206
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da2e79864eac4f4db5001a88fafeb50
+      internalID: 194843074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_37
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 206
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9b3ec029fd62d49bd332a07a5f26bd
+      internalID: -1851396544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_38
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 206
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b52bfdb796c6d49b448365f18b9fb0
+      internalID: -652743527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_39
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 206
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d4d7537de4d1940ad97e701303c0f9
+      internalID: 1955050551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_40
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 166
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07499b56bdf436488c3f8c54bafe56f
+      internalID: -1163339428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_41
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 166
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c925e604dba1fcd4f86ce36448310626
+      internalID: -633248658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_42
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 166
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9392113047a81744806ff358404abf5
+      internalID: -1872257136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_43
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 167
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa868cdce72fc146898141a8c3f08e8
+      internalID: 1000955042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_44
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 166
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956580afbec16814a99772f005f72be7
+      internalID: 2009524812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_45
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 166
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6d5e11cf3a77247a48334c4940802a
+      internalID: 810089657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_46
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 166
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d650764324b914a86b816ed2beaedf
+      internalID: 542148804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_47
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 166
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc842df9d94e21241b4d12571341739f
+      internalID: 235138557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_48
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 125
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb2a959037d5d2419ef90e7af492335
+      internalID: 873874412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_49
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 126
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f3ab5f9ba953347953da88612a62dd
+      internalID: 491726688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_50
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 126
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b174ca825b9344a831fc85534d0b1f
+      internalID: 1837562132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_51
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 126
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285dc1515aae61b48870cf4452d7591c
+      internalID: 825525338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_52
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 126
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59929876eaa6db345a22f858c541231b
+      internalID: 1056827586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_53
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 126
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe324cf988182841a1031caf100b024
+      internalID: -111319644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_54
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 127
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3073e2b4d0151145975de082454ec13
+      internalID: 1323963952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_55
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 127
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90226697333c45c419b24b8f1e87f366
+      internalID: 596421234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_56
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 85
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7b6e8b30adad6409fdde06af590b5d
+      internalID: 1561179033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_57
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 86
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea6c30f9ac62bb4cbaacb5c94539d6c
+      internalID: -806369196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_58
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 85
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d669f46d0b54ce4ba9e8dea357ea1f7
+      internalID: -1145055764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_59
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 85
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c664c9f39ba7e4bb04d7a177a47448
+      internalID: -22240695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_60
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 86
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc8508ce1db7c94ba2c6c1a4025a0e3
+      internalID: -868761295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_61
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 88
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a337c5ea7fb9fe541b027b00a198aa9a
+      internalID: -1090796886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_62
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 86
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b687469c43a754e8eb8ca88b504cd0
+      internalID: -1289677110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_63
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 86
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8734eb7603541d44b8c309232c729ab4
+      internalID: 1970063077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_64
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 45
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc408aae888d2047b0bbdf215ee8d10
+      internalID: 1770507178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_65
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 45
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583d84d6fb5bec34d960e4d348e40ff2
+      internalID: 1647574843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_66
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 46
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b32c32be1e93a4a8505edf82c7d868
+      internalID: -703953148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_67
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 45
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4201a7bb4d18945ae63c2b5717efe8
+      internalID: -124282366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_68
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 46
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c291131ee680b488ca0b98ff2f8037
+      internalID: 2076656098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_69
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 45
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe4e0f3c5e488b47a4621341b4f368b
+      internalID: -616975032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_70
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 45
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cf85981e9c8524093c3b817fe0fffe
+      internalID: -498935243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_71
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 45
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887072ed60bdc13428fbdb0ecffcb923
+      internalID: -1340753288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_72
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 6
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb975fccf7f2a91459551e5cea75154b
+      internalID: -51625665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_73
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 6
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62bf1ee2e5be2a440ac4b888a5dbe573
+      internalID: -2001565878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xeno.xenomorph.sprite_74
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 7
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ea273a17293204eaa5c541e4cb7a46
+      internalID: -1723471496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0b58e88fe0c106f43848c91fc4cb2778
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      xeno.xenomorph.sprite_0: -529402355
+      xeno.xenomorph.sprite_1: -480020121
+      xeno.xenomorph.sprite_10: -1813548895
+      xeno.xenomorph.sprite_11: -1702740655
+      xeno.xenomorph.sprite_12: 1354266421
+      xeno.xenomorph.sprite_13: 1778689535
+      xeno.xenomorph.sprite_14: 454670715
+      xeno.xenomorph.sprite_15: 319416071
+      xeno.xenomorph.sprite_16: -325308437
+      xeno.xenomorph.sprite_17: 1477205030
+      xeno.xenomorph.sprite_18: 1742452843
+      xeno.xenomorph.sprite_19: 1473849398
+      xeno.xenomorph.sprite_2: 1387121414
+      xeno.xenomorph.sprite_20: -2039659603
+      xeno.xenomorph.sprite_21: -1346496915
+      xeno.xenomorph.sprite_22: 162334000
+      xeno.xenomorph.sprite_23: -615770858
+      xeno.xenomorph.sprite_24: -889017807
+      xeno.xenomorph.sprite_25: -929755720
+      xeno.xenomorph.sprite_26: 869177975
+      xeno.xenomorph.sprite_27: 95773532
+      xeno.xenomorph.sprite_28: 249987397
+      xeno.xenomorph.sprite_29: 610210502
+      xeno.xenomorph.sprite_3: -225653522
+      xeno.xenomorph.sprite_30: 1803590050
+      xeno.xenomorph.sprite_31: -52765394
+      xeno.xenomorph.sprite_32: -615125812
+      xeno.xenomorph.sprite_33: -1631526960
+      xeno.xenomorph.sprite_34: 545977752
+      xeno.xenomorph.sprite_35: -1832374416
+      xeno.xenomorph.sprite_36: 194843074
+      xeno.xenomorph.sprite_37: -1851396544
+      xeno.xenomorph.sprite_38: -652743527
+      xeno.xenomorph.sprite_39: 1955050551
+      xeno.xenomorph.sprite_4: -1417887750
+      xeno.xenomorph.sprite_40: -1163339428
+      xeno.xenomorph.sprite_41: -633248658
+      xeno.xenomorph.sprite_42: -1872257136
+      xeno.xenomorph.sprite_43: 1000955042
+      xeno.xenomorph.sprite_44: 2009524812
+      xeno.xenomorph.sprite_45: 810089657
+      xeno.xenomorph.sprite_46: 542148804
+      xeno.xenomorph.sprite_47: 235138557
+      xeno.xenomorph.sprite_48: 873874412
+      xeno.xenomorph.sprite_49: 491726688
+      xeno.xenomorph.sprite_5: -335544671
+      xeno.xenomorph.sprite_50: 1837562132
+      xeno.xenomorph.sprite_51: 825525338
+      xeno.xenomorph.sprite_52: 1056827586
+      xeno.xenomorph.sprite_53: -111319644
+      xeno.xenomorph.sprite_54: 1323963952
+      xeno.xenomorph.sprite_55: 596421234
+      xeno.xenomorph.sprite_56: 1561179033
+      xeno.xenomorph.sprite_57: -806369196
+      xeno.xenomorph.sprite_58: -1145055764
+      xeno.xenomorph.sprite_59: -22240695
+      xeno.xenomorph.sprite_6: -1772856614
+      xeno.xenomorph.sprite_60: -868761295
+      xeno.xenomorph.sprite_61: -1090796886
+      xeno.xenomorph.sprite_62: -1289677110
+      xeno.xenomorph.sprite_63: 1970063077
+      xeno.xenomorph.sprite_64: 1770507178
+      xeno.xenomorph.sprite_65: 1647574843
+      xeno.xenomorph.sprite_66: -703953148
+      xeno.xenomorph.sprite_67: -124282366
+      xeno.xenomorph.sprite_68: 2076656098
+      xeno.xenomorph.sprite_69: -616975032
+      xeno.xenomorph.sprite_7: -1250131495
+      xeno.xenomorph.sprite_70: -498935243
+      xeno.xenomorph.sprite_71: -1340753288
+      xeno.xenomorph.sprite_72: -51625665
+      xeno.xenomorph.sprite_73: -2001565878
+      xeno.xenomorph.sprite_74: -1723471496
+      xeno.xenomorph.sprite_8: 2082493115
+      xeno.xenomorph.sprite_9: 98207842
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
