@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KnifeController : WeaponController
+public class MeleeController : WeaponController
 {
     // Start is called before the first frame update
     protected override void Start()
@@ -13,8 +13,8 @@ public class KnifeController : WeaponController
     protected override void Attack()
     {
         base.Attack();
-        GameObject spawnedKnife = Instantiate(prefab);
-        spawnedKnife.transform.position = transform.position;
-        spawnedKnife.GetComponent<KnifeBehavior>().DirectionChecker(mController.lastMovedVector);
+        GameObject spawnedMelee = Instantiate(weaponData.Prefab);
+        spawnedMelee.transform.position = transform.position;
+        spawnedMelee.transform.parent = transform;
     }
 }

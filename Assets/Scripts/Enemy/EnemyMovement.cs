@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
+    public EnemyScriptableObject enemyData;
     MovementController player;
-    public float moveSpeed;
+
     private SpriteRenderer sRenderer;
     public float stopDistance;
 
@@ -25,7 +26,7 @@ public class EnemyMovement : MonoBehaviour
 
         if (distanceToPlayer > stopDistance)
         {
-            transform.position = Vector2.MoveTowards(transform.position, player.transform.position, moveSpeed * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, player.transform.position, enemyData.MoveSpeed * Time.deltaTime);
         }
 
 

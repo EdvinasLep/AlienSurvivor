@@ -6,6 +6,20 @@ public class ProjectileWeaponBehavior : MonoBehaviour
 {
     protected Vector3 direction;
     public float destroyAfterSeconds;
+    public WeaponScriptableObject weaponData;
+
+    protected float currentDamage;
+    protected float currentSpeed;
+    protected float currentCooldownDuration;
+    protected int currentPierce;
+
+    void Awake()
+    {
+        currentDamage = weaponData.Damage;
+        currentSpeed = weaponData.Speed;
+        currentCooldownDuration = weaponData.CooldownDuration;
+        currentPierce = weaponData.Pierce;
+    }
     // Start is called before the first frame update
     protected virtual void Start()
     {
@@ -13,6 +27,15 @@ public class ProjectileWeaponBehavior : MonoBehaviour
     }
 
     // Update is called once per frame
+    public void ReducePierce()
+    {
+        currentPierce--;
+
+        if(currentPierce <=0)
+        {
+            Destroy(gameObject);
+        }
+    }
     public void DirectionChecker(Vector3 dir)
     {
         direction = dir;
@@ -59,5 +82,15 @@ public class ProjectileWeaponBehavior : MonoBehaviour
 
         transform.localScale = scale;
         transform.rotation = Quaternion.Euler(rotation);
+    }
+    protected virtual void OnTriggerEnter2D(Collider2D col)
+    {
+        //Reference the script from the collided collider and deal damage using TakeDamage()
+        if (col.CompareTag("Enemy"))
+        {
+            EnemyStats enemy = col.GetComponent<EnemyStats>();
+            enemy.TakeDamage(currentDamage);
+            ReducePierce();
+        }
     }
 }
