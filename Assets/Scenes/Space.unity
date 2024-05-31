@@ -289,7 +289,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1013225233390736716, guid: ae902ea6436e9a34993870a80a6467c2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1875741601}
   m_SourcePrefab: {fileID: 100100000, guid: ae902ea6436e9a34993870a80a6467c2, type: 3}
 --- !u!1 &1346592680 stripped
 GameObject:
@@ -301,6 +304,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4687056258585614220, guid: c2d152e82e7913a438e3e3b6fc8e262f, type: 3}
   m_PrefabInstance: {fileID: 1668157086}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1346592695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346592680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4704ee74f34f6ac47a7ad02c592c3d4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1409949290
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,21 +383,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 2466118985584996010, guid: c2d152e82e7913a438e3e3b6fc8e262f, type: 3}
-      propertyPath: moveSpeed
+    - target: {fileID: 4687056258585614220, guid: c2d152e82e7913a438e3e3b6fc8e262f, type: 3}
+      propertyPath: m_LocalScale.x
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4687056258585614220, guid: c2d152e82e7913a438e3e3b6fc8e262f, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4687056258585614220, guid: c2d152e82e7913a438e3e3b6fc8e262f, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4687056258585614220, guid: c2d152e82e7913a438e3e3b6fc8e262f, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4687056258585614220, guid: c2d152e82e7913a438e3e3b6fc8e262f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -424,11 +431,91 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7705311024152485727, guid: c2d152e82e7913a438e3e3b6fc8e262f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8060482103621763524, guid: c2d152e82e7913a438e3e3b6fc8e262f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8518632896004979961, guid: c2d152e82e7913a438e3e3b6fc8e262f, type: 3}
+      propertyPath: level
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8518632896004979961, guid: c2d152e82e7913a438e3e3b6fc8e262f, type: 3}
+      propertyPath: invincibilityDuration
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8518632896004979961, guid: c2d152e82e7913a438e3e3b6fc8e262f, type: 3}
+      propertyPath: levelRanges.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8518632896004979961, guid: c2d152e82e7913a438e3e3b6fc8e262f, type: 3}
+      propertyPath: levelRanges.Array.data[0].endLevel
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8518632896004979961, guid: c2d152e82e7913a438e3e3b6fc8e262f, type: 3}
+      propertyPath: levelRanges.Array.data[1].endLevel
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8518632896004979961, guid: c2d152e82e7913a438e3e3b6fc8e262f, type: 3}
+      propertyPath: levelRanges.Array.data[2].endLevel
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8518632896004979961, guid: c2d152e82e7913a438e3e3b6fc8e262f, type: 3}
+      propertyPath: levelRanges.Array.data[0].startLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8518632896004979961, guid: c2d152e82e7913a438e3e3b6fc8e262f, type: 3}
+      propertyPath: levelRanges.Array.data[1].startLevel
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8518632896004979961, guid: c2d152e82e7913a438e3e3b6fc8e262f, type: 3}
+      propertyPath: levelRanges.Array.data[2].startLevel
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8518632896004979961, guid: c2d152e82e7913a438e3e3b6fc8e262f, type: 3}
+      propertyPath: levelRanges.Array.data[0].experienceCapIncrease
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8518632896004979961, guid: c2d152e82e7913a438e3e3b6fc8e262f, type: 3}
+      propertyPath: levelRanges.Array.data[1].experienceCapIncrease
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8518632896004979961, guid: c2d152e82e7913a438e3e3b6fc8e262f, type: 3}
+      propertyPath: levelRanges.Array.data[2].experienceCapIncrease
+      value: 300
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1494180822547532044, guid: c2d152e82e7913a438e3e3b6fc8e262f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1346592695}
   m_SourcePrefab: {fileID: 100100000, guid: c2d152e82e7913a438e3e3b6fc8e262f, type: 3}
+--- !u!1 &1875741593 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1013225233390736716, guid: ae902ea6436e9a34993870a80a6467c2, type: 3}
+  m_PrefabInstance: {fileID: 1339876426}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1875741601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875741593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca0c7a5f9bf3b7644b7a5db553cb3530, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drops:
+  - name: Experience
+    itemPrefab: {fileID: 1874018260169307845, guid: 17121161e8bdfd841b642ba5a15070b4, type: 3}
+    dropRate: 100
 --- !u!1 &2085024883
 GameObject:
   m_ObjectHideFlags: 0

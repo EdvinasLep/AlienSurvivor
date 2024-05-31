@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class MovementController : MonoBehaviour
 {
-    public float moveSpeed;
+
     private Rigidbody2D rb;
-    public Vector2 moveDir;
     SpriteRenderer sRenderer;
+    public CharacterScrptableObject character;
 
     [HideInInspector]
     public float lastHorizontalVector;
@@ -15,6 +15,8 @@ public class MovementController : MonoBehaviour
     public float lastVerticalVector;
     [HideInInspector]
     public Vector2 lastMovedVector;
+    [HideInInspector]
+    public Vector2 moveDir;
 
     // Start is called before the first frame update
     void Start()
@@ -70,7 +72,7 @@ public class MovementController : MonoBehaviour
 
     private void Move()
     {
-        rb.velocity = new Vector2(moveDir.x * moveSpeed, moveDir.y * moveSpeed);
+        rb.velocity = new Vector2(moveDir.x * character.MoveSpeed, moveDir.y * character.MoveSpeed);
     }
 
 
