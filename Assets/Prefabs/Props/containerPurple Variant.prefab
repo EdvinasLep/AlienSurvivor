@@ -64,6 +64,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: containerPurple Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 5642246150774831147, guid: dfc8d851f140e034888b83dc2f534597, type: 3}
+      propertyPath: drops.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5642246150774831147, guid: dfc8d851f140e034888b83dc2f534597, type: 3}
+      propertyPath: drops.Array.data[0].name
+      value: Heal
+      objectReference: {fileID: 0}
+    - target: {fileID: 5642246150774831147, guid: dfc8d851f140e034888b83dc2f534597, type: 3}
+      propertyPath: drops.Array.data[0].dropRate
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5642246150774831147, guid: dfc8d851f140e034888b83dc2f534597, type: 3}
+      propertyPath: drops.Array.data[0].itemPrefab
+      value: 
+      objectReference: {fileID: 2322391394825034471, guid: f520619d7a689014dbce566f142b3a8a, type: 3}
+    - target: {fileID: 8984821654923125447, guid: dfc8d851f140e034888b83dc2f534597, type: 3}
+      propertyPath: hp
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

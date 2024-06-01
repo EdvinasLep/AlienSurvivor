@@ -62,10 +62,12 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Weapons\ProjectileWeapon\ProjectileWeaponBehavior.cs" />
     <Compile Include="Assets\Scripts\Interfaces\ICollectible.cs" />
+    <Compile Include="Assets\Scripts\PickUps\HealthVial.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyMovement.cs" />
     <Compile Include="Assets\Scripts\PropManager.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerCollector.cs" />
     <Compile Include="Assets\Scripts\Weapons\MeleeWeapon\MeleeWeaponBehaviour.cs" />
+    <Compile Include="Assets\Scripts\BreakableProps.cs" />
     <Compile Include="Assets\Scripts\Player\CharacterScrptableObject.cs" />
     <Compile Include="Assets\Scripts\Weapons\WeaponScriptableObject.cs" />
     <Compile Include="Assets\Scripts\Weapons\MeleeWeapon\MeleeController.cs" />
