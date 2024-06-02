@@ -5,9 +5,9 @@ using UnityEngine;
 public class MovementController : MonoBehaviour
 {
 
-    private Rigidbody2D rb;
+    Rigidbody2D rb;
     SpriteRenderer sRenderer;
-    public CharacterScrptableObject character;
+    PlayerStats player;
 
     [HideInInspector]
     public float lastHorizontalVector;
@@ -23,6 +23,7 @@ public class MovementController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         sRenderer = GetComponent<SpriteRenderer>();
+        player = GetComponent<PlayerStats>();
         lastMovedVector = new Vector2(1, 0f);
     }
 
@@ -72,7 +73,7 @@ public class MovementController : MonoBehaviour
 
     private void Move()
     {
-        rb.velocity = new Vector2(moveDir.x * character.MoveSpeed, moveDir.y * character.MoveSpeed);
+        rb.velocity = new Vector2(moveDir.x * player.currentMoveSpeed, moveDir.y * player.currentMoveSpeed);
     }
 
 

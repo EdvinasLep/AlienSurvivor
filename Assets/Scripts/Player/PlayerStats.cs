@@ -1,16 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.U2D.Animation;
 using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
     public CharacterScrptableObject charData;
 
-    float currentHealth;
-    float currentRecovery;
-    float currentMoveSpeed;
-    float currentMight;
-    float currentProjectileSpeed;
+    public float currentHealth;
+    public float currentRecovery;
+    public float currentMoveSpeed;
+    public float currentMight;
+    public float currentProjectileSpeed;
+    public float currentMagnet;
 
     [Header("Experience/Level")]
     public int experience = 0;
@@ -33,10 +35,12 @@ public class PlayerStats : MonoBehaviour
     public float invincibilityDuration;
     float invincibilityTimer;
     bool isInvincible;
+
     private void Start()
     { 
         experienceCap = levelRanges[0].experienceCapIncrease;
     }
+
     void Update()
     {
         if (invincibilityTimer > 0)
@@ -47,12 +51,38 @@ public class PlayerStats : MonoBehaviour
         {
             isInvincible = false;
         }
+
+        Recover();
     }
 
     public void IncreaseExperience(int value)
     {
         experience += value;
         LevelUpChecker();
+    }
+
+    public void Heal(float value)
+    {
+        if (currentHealth < charData.MaxHealth)
+        {
+            currentHealth += value;
+            if (currentHealth > charData.MaxHealth)
+            {
+                currentHealth = charData.MaxHealth;
+            }
+        } 
+    }
+
+    void Recover()
+    {
+        if (currentHealth < charData.MaxHealth)
+        {
+            currentHealth += currentRecovery * Time.deltaTime;
+            if (currentHealth > charData.MaxHealth)
+            {
+                currentHealth = charData.MaxHealth;
+            }
+        }
     }
 
     void LevelUpChecker()
@@ -101,6 +131,7 @@ public class PlayerStats : MonoBehaviour
         currentMoveSpeed = charData.MoveSpeed;
         currentMight = charData.Might;
         currentProjectileSpeed = charData.ProjectileSpeed;
+        currentMagnet = charData.Magnet;
     }
 
     // Update is called once per frame

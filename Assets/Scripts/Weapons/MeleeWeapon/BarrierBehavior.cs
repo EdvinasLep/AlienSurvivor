@@ -20,5 +20,13 @@ public class BarrierBehavior : MeleeWeaponBehaviour
 
             markedEnemies.Add(col.gameObject);
         }
+        else if (col.CompareTag("Prop") && !markedEnemies.Contains(col.gameObject))
+        {
+            if (col.gameObject.TryGetComponent(out BreakableProps breakable))
+            {
+                breakable.TakeDamage(currentDamage);
+                markedEnemies.Add(col.gameObject);
+            }
+        }
     }
 }

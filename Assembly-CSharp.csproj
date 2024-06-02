@@ -60,6 +60,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.18f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\PickUps\PickUp.cs" />
     <Compile Include="Assets\Scripts\Weapons\ProjectileWeapon\ProjectileWeaponBehavior.cs" />
     <Compile Include="Assets\Scripts\Interfaces\ICollectible.cs" />
     <Compile Include="Assets\Scripts\PickUps\HealthVial.cs" />
