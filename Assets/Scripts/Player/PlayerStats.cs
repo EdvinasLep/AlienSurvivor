@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
-    public CharacterScrptableObject charData;
+    CharacterScrptableObject charData;
+
 
     public float currentHealth;
     public float currentRecovery;
@@ -13,6 +14,8 @@ public class PlayerStats : MonoBehaviour
     public float currentMight;
     public float currentProjectileSpeed;
     public float currentMagnet;
+
+    public List<GameObject> spawnedWeapons;
 
     [Header("Experience/Level")]
     public int experience = 0;
@@ -85,6 +88,13 @@ public class PlayerStats : MonoBehaviour
         }
     }
 
+    public void SpawnWeapon(GameObject weapon)
+    {
+        GameObject spawnedWeapon = Instantiate(weapon,transform.position,Quaternion.identity);
+        spawnedWeapon.transform.SetParent(transform);
+        spawnedWeapons.Add(spawnedWeapon);
+    }
+
     void LevelUpChecker()
     {
         if(experience >= experienceCap)
@@ -126,12 +136,17 @@ public class PlayerStats : MonoBehaviour
     }
     void Awake()
     {
+        charData = CharSelector.GetData();
+        CharSelector.Instance.DestroySingleton();
+
+        
         currentHealth = charData.MaxHealth;
         currentRecovery = charData.Recovery;
         currentMoveSpeed = charData.MoveSpeed;
         currentMight = charData.Might;
         currentProjectileSpeed = charData.ProjectileSpeed;
         currentMagnet = charData.Magnet;
+        SpawnWeapon(charData.StartingWeapon);
     }
 
     // Update is called once per frame
