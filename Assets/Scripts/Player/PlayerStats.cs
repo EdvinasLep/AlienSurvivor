@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
-    CharacterScrptableObject charData;
+    public CharacterScrptableObject charData;
 
 
     public float currentHealth;
@@ -136,8 +136,8 @@ public class PlayerStats : MonoBehaviour
     }
     void Awake()
     {
-        charData = CharSelector.GetData();
-        CharSelector.Instance.DestroySingleton();
+        //charData = CharSelector.GetData();
+        //CharSelector.Instance.DestroySingleton();
 
         
         currentHealth = charData.MaxHealth;

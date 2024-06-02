@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8771451991932548476}
   - component: {fileID: 800372607051953306}
   m_Layer: 0
-  m_Name: Predator
+  m_Name: RedPredator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -1163339428, guid: 64e5ebda9466db24ba09a721e577b0cc, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.0990566, b: 0.74599063, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

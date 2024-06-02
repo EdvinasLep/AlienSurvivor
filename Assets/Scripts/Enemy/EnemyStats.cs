@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyStats : MonoBehaviour
 {
     public EnemyScriptableObject enemyData;
-
+    EnemySpawner enemySpawner;
     //Current stats
     public float currentMoveSpeed;
     public float currentHealth;
@@ -17,6 +17,8 @@ public class EnemyStats : MonoBehaviour
         currentMoveSpeed = enemyData.MoveSpeed;
         currentHealth = enemyData.MaxHealth;
         currentDamage = enemyData.Damage;
+
+        enemySpawner = FindObjectOfType<EnemySpawner>();
     }
 
     public void TakeDamage(float dmg)
@@ -32,6 +34,7 @@ public class EnemyStats : MonoBehaviour
     public void Kill()
     {
         Destroy(gameObject);
+        enemySpawner.OnEnemyKilled();
     }
 
     private void OnTriggerStay2D(Collider2D collision)
