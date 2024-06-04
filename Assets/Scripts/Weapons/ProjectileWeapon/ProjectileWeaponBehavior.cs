@@ -20,6 +20,10 @@ public class ProjectileWeaponBehavior : MonoBehaviour
         currentCooldownDuration = weaponData.CooldownDuration;
         currentPierce = weaponData.Pierce;
     }
+    public float GetCurrentDamage()
+    {
+        return currentDamage *= FindObjectOfType<PlayerStats>().currentMight;
+    }
     // Start is called before the first frame update
     protected virtual void Start()
     {
@@ -54,30 +58,33 @@ public class ProjectileWeaponBehavior : MonoBehaviour
         else if (dirx == 0 && diry < 0) //down
         {
             scale.y = scale.y * -1;
+            rotation.z = -90f;
         }
         else if (dirx == 0 && diry > 0) //up
         {
             scale.x = scale.x * -1;
+            rotation.z = -90f;
         }
         else if (dirx > 0 && diry > 0) //right up
         {
-            rotation.z = 0f;
+            rotation.z = 45f;
+
         }
         else if (dirx > 0 && diry < 0) //right down
         {
-            rotation.z = -90f;
+            rotation.z = -45f;
         }
         else if (dirx < 0 && diry > 0) //left up
         {
             scale.x = scale.x * -1;
             scale.y = scale.y * -1;
-            rotation.z = -90f;
+            rotation.z = -45f;
         }
         else if (dirx < 0 && diry < 0) //left down
         {
             scale.x = scale.x * -1;
             scale.y = scale.y * -1;
-            rotation.z = 0f;
+            rotation.z = 45f;
         }
 
         transform.localScale = scale;
@@ -85,18 +92,18 @@ public class ProjectileWeaponBehavior : MonoBehaviour
     }
     protected virtual void OnTriggerEnter2D(Collider2D col)
     {
-        //Reference the script from the collided collider and deal damage using TakeDamage()
+        
         if (col.CompareTag("Enemy"))
         {
             EnemyStats enemy = col.GetComponent<EnemyStats>();
-            enemy.TakeDamage(currentDamage);
+            enemy.TakeDamage(GetCurrentDamage());
             ReducePierce();
         }
-        else if(col.CompareTag("Prop"))
+        if(col.CompareTag("Prop"))
         {
             if(col.gameObject.TryGetComponent(out BreakableProps breakable))
             {
-                breakable.TakeDamage(currentDamage);
+                breakable.TakeDamage(GetCurrentDamage());
                 ReducePierce();
             }
         }

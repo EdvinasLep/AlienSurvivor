@@ -73,8 +73,10 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyMovement.cs" />
+    <Compile Include="Assets\Scripts\Player\InventoryManager.cs" />
     <Compile Include="Assets\Scripts\PropManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\Scripts\PassiveItems\JetpackPassiveItem.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerCollector.cs" />
     <Compile Include="Assets\Scripts\Weapons\MeleeWeapon\MeleeWeaponBehaviour.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
@@ -101,6 +103,7 @@
     <Compile Include="Assets\CameraManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Scripts\Weapons\ProjectileWeapon\KnifeController.cs" />
+    <Compile Include="Assets\Scripts\PassiveItems\AlienDnaPassiveItem.cs" />
     <Compile Include="Assets\Scripts\DropRateManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\Scripts\Weapons\ProjectileWeapon\WeaponController.cs" />
@@ -111,6 +114,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\Scripts\Weapons\MeleeWeapon\BarrierBehavior.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\Scripts\PassiveItems\PassiveItem.cs" />
     <Compile Include="Assets\Scripts\Weapons\ProjectileWeapon\KnifeBehavior.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyStats.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
@@ -123,6 +127,7 @@
     <Compile Include="Assets\Scripts\CharSelector.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerStats.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets\Scripts\PassiveItems\PassiveItemScriptableObject.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

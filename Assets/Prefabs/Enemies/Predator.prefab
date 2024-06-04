@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 800372607051953306}
   m_Layer: 0
   m_Name: Predator
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -209,5 +209,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyData: {fileID: 11400000, guid: 8d132ca96c10f0b4ebc3e311327c3d6b, type: 2}
   currentMoveSpeed: 0
-  currentHealth: 0
-  currentDamage: 0
+  currentHealth: 100
+  currentDamage: 5
