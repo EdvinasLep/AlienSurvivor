@@ -19,4 +19,6 @@ MonoBehaviour:
   pierce: 2
   level: 1
   nextLevelPrefab: {fileID: 3103962295756492701, guid: 4df6000d45371884482494acec2376e2, type: 3}
+  name: Energy Barrier
+  description: Spawns an energy barrier around you that damages aliens
   icon: {fileID: 21300000, guid: 7e96db1f5230a75459c44df082b1f477, type: 3}

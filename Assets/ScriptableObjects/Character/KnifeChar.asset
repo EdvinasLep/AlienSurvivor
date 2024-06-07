@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9832e5926e6c8840ad13427aa5c3cbd, type: 3}
   m_Name: KnifeChar
   m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 8f70d6b0a245a0245b3a5f81d33cc7d7, type: 3}
+  charName: Ranger
   startingWeapon: {fileID: 4411326124130644837, guid: 2970c8f04d3139a488da8add3240add1, type: 3}
-  maxHealth: 100
+  maxHealth: 2000
   recovery: 2
   moveSpeed: 2
   might: 1

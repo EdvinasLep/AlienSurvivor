@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e90c740100a1c84a816b6f95d47c4e8, type: 3}
   m_Name: BarrierWeaponLvl3
   m_EditorClassIdentifier: 
-  prefab: {fileID: 2243304692907812502, guid: 86576eb16a58b4f48a0c190655a2d224, type: 3}
-  damage: 50
+  prefab: {fileID: 2243304692907812502, guid: 48a83fe1196f29b428d37625d7018b83, type: 3}
+  damage: 35
   speed: 0
-  cooldownDuration: 1.7
-  pierce: 8
+  cooldownDuration: 3
+  pierce: 7
   level: 3
   nextLevelPrefab: {fileID: 0}
+  name: Energy Barrier Level 3
+  description: Reduces the cooldown by 20%, Increases pierce by 3, damage by 20
+  icon: {fileID: 21300000, guid: 7e96db1f5230a75459c44df082b1f477, type: 3}

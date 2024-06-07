@@ -17,7 +17,7 @@ public class PlayerCollector : MonoBehaviour
 
     private void Update()
     {
-        playerCollector.radius = player.currentMagnet;
+        playerCollector.radius = player.CurrentMagnet;
         
     }
 

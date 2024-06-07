@@ -6,7 +6,7 @@ public class BarrierBehavior : MeleeWeaponBehaviour
 {
     List<GameObject> markedEnemies;
     // Start is called before the first frame update
-    protected override void Start()
+    void Start()
     {
         base.Start();
         markedEnemies = new List<GameObject>();

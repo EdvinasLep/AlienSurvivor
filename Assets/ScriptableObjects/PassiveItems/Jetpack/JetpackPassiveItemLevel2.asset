@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cff46c4f134b4c94a8b6d21690fca431, type: 3}
   m_Name: JetpackPassiveItemLevel2
   m_EditorClassIdentifier: 
-  multiplier: 80
+  multiplier: 40
   level: 2
   nextLevelPrefab: {fileID: 3572298743533435465, guid: 70a07a26b7ad59e42a3da6657dec9429, type: 3}
-  icon: {fileID: 0}
+  name: Jetpack Level2
+  description: Increases move speed by 40%
+  icon: {fileID: -1637163719, guid: c8018d998b7d587429cc77035d294f4d, type: 3}

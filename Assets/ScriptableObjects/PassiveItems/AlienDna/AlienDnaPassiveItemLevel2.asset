@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cff46c4f134b4c94a8b6d21690fca431, type: 3}
   m_Name: AlienDnaPassiveItemLevel2
   m_EditorClassIdentifier: 
-  multiplier: 125
+  multiplier: 25
   level: 2
   nextLevelPrefab: {fileID: 196824438489645023, guid: 859b3edbcec653846a00a192874162ee, type: 3}
+  name: Alien DNA level2
+  description: Increases Might by 25%
+  icon: {fileID: -911556060, guid: c8018d998b7d587429cc77035d294f4d, type: 3}

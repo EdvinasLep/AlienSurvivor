@@ -40,26 +40,30 @@ public class EnemySpawner : MonoBehaviour
 
     void Start()
     {
-        player = FindObjectOfType<PlayerStats>().transform;
+        player = GameObject.FindGameObjectWithTag("Player").transform;
         CalculateWaveQuota();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (currentWaveCount < waves.Count && waves[currentWaveCount].spawnCount == 0)  //Check if the wave has ended and the next wave should start
+        if(player != null)
         {
-            StartCoroutine(BeginNextWave());
-        }
+            if (currentWaveCount < waves.Count && waves[currentWaveCount].spawnCount == 0)  //Check if the wave has ended and the next wave should start
+            {
+                StartCoroutine(BeginNextWave());
+            }
 
-        spawnTimer += Time.deltaTime;
+            spawnTimer += Time.deltaTime;
 
-        //Check if it's time to spawn the next enemy
-        if (spawnTimer >= waves[currentWaveCount].spawnInterval)
-        {
-            spawnTimer = 0f;
-            SpawnEnemies();
+            //Check if it's time to spawn the next enemy
+            if (spawnTimer >= waves[currentWaveCount].spawnInterval)
+            {
+                spawnTimer = 0f;
+                SpawnEnemies();
+            }
         }
+        
     }
 
     IEnumerator BeginNextWave()
@@ -129,7 +133,7 @@ public class EnemySpawner : MonoBehaviour
     // Call this function when an enemy is killed
     public void OnEnemyKilled()
     {
-        //Decrement the number of enemies alive
+        GameManager.instance.score++;
         enemiesAlive--;
     }
 }

@@ -6,6 +6,6 @@ public class JetpackPassiveItem : PassiveItem
 {
     protected override void ApplyModifier()
     {
-        player.currentMoveSpeed *= 1 + passiveItemData.Multipliier / 100f;
+        player.CurrentMoveSpeed *= 1 + passiveItemData.Multipliier / 100f;
     }
 }

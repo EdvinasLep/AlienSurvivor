@@ -10,12 +10,16 @@ public class CameraManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = player.position + offset;
+        if(player != null)
+        {
+            transform.position = player.position + offset;
+        }
+        
     }
 }

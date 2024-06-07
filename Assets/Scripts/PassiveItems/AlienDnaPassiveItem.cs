@@ -6,6 +6,6 @@ public class AlienDnaPassiveItem : PassiveItem
 {
     protected override void ApplyModifier()
     {
-        player.currentMight *= 1 + passiveItemData.Multipliier / 100f;
+        player.CurrentMight *= 1 + passiveItemData.Multipliier / 100f;
     }
 }

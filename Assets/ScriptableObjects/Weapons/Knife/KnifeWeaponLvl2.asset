@@ -13,9 +13,12 @@ MonoBehaviour:
   m_Name: KnifeWeaponLvl2
   m_EditorClassIdentifier: 
   prefab: {fileID: 76887721440150105, guid: beda3889257ea42469493f7b3e3679a7, type: 3}
-  damage: 50
+  damage: 20
   speed: 7
   cooldownDuration: 1.6
   pierce: 4
   level: 2
   nextLevelPrefab: {fileID: 4411326124130644837, guid: d34407a796033af4aba5cd327a40ebce, type: 3}
+  name: Knife Level 2
+  description: Reduces space knife cooldown by 20%
+  icon: {fileID: 21300000, guid: cef6095b920f4b2498e7b0e129078b01, type: 3}

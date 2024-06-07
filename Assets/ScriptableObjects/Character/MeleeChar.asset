@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9832e5926e6c8840ad13427aa5c3cbd, type: 3}
   m_Name: MeleeChar
   m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 66cb8939cd8194547b79863a28184bea, type: 3}
+  charName: MeleeFighter
   startingWeapon: {fileID: 3103962295756492701, guid: 8d7e72f8f7d7b2c42ba23cb92488ec3d, type: 3}
-  maxHealth: 100
+  maxHealth: 2000
   recovery: 2
   moveSpeed: 5
   might: 0

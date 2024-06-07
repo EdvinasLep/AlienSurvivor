@@ -22,7 +22,7 @@ public class MeleeWeaponBehaviour : MonoBehaviour
     }
     public float GetCurrentDamage()
     {
-        return currentDamage *= FindObjectOfType<PlayerStats>().currentMight + (weaponData.Level * 10);
+        return currentDamage *= FindObjectOfType<PlayerStats>().CurrentMight + (weaponData.Level * 10);
     }
     protected virtual void Start()
     {

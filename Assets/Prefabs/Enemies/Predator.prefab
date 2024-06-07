@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4129495322753423227}
   - component: {fileID: 8771451991932548476}
   - component: {fileID: 800372607051953306}
+  - component: {fileID: -7791422182699789622}
   m_Layer: 0
   m_Name: Predator
   m_TagString: Enemy
@@ -189,7 +190,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1013225233390736716}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 191b6bb560a9a6544ade9d14e30b6173, type: 3}
   m_Name: 
@@ -211,3 +212,19 @@ MonoBehaviour:
   currentMoveSpeed: 0
   currentHealth: 100
   currentDamage: 5
+--- !u!114 &-7791422182699789622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013225233390736716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca0c7a5f9bf3b7644b7a5db553cb3530, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drops:
+  - name: 
+    itemPrefab: {fileID: 1874018260169307845, guid: 17121161e8bdfd841b642ba5a15070b4, type: 3}
+    dropRate: 100
